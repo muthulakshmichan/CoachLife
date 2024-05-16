@@ -3,7 +3,7 @@ from pymongo import MongoClient
 from bson import ObjectId
 from datetime import datetime
 
-client = MongoClient('mongodb+srv://tgdev:technology-1@cluster0.0pefygc.mongodb.net/')
+client = MongoClient('Mongo connecting string ')
 db = client['CoachLife'] 
 player_learning_collection = db['Player Learning']
 players_collection = db['Players']
