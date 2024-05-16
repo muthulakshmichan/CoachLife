@@ -19,7 +19,7 @@ def lambda_handler(event, context):
             raise Exception("'status' key not found in the request payload")
 
         # Connect to MongoDB
-        connection_string = "mongodb+srv://tgdev:technology-1@cluster0.0pefygc.mongodb.net/"
+        connection_string = "Mongo Connecting String"
         client = MongoClient(connection_string)
         db = client["CoachLife"]
 
