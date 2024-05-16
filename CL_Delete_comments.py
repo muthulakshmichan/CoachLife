@@ -14,7 +14,7 @@ def lambda_handler(event, context):
             raise ValueError("Request body is missing")
 
         # Connect to MongoDB
-        client = MongoClient("mongodb+srv://tgdev:technology-1@cluster0.0pefygc.mongodb.net/")
+        client = MongoClient("Mongo connecting string")
         db = client.CoachLife
         player_learning_collection = db["Player Learning"]
         
