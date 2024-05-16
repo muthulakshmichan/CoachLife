@@ -2,7 +2,7 @@ import json
 from pymongo import MongoClient
 from bson.objectid import ObjectId
 
-client = MongoClient("mongodb+srv://tgdev:technology-1@cluster0.0pefygc.mongodb.net/")
+client = MongoClient("Mongo Connecting String")
 db = client.CoachLife
 players_collection = db.Players
 player_learning_collection = db["Player Learning"]
